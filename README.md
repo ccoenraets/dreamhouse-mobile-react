@@ -5,9 +5,10 @@ React Native iOS implementation of the DreamHouse mobile app. DreamHouse is an e
 This version of the application is built with React Native and the Salesforce Mobile SDK, including some new [experimental features](https://github.com/ForceDotComLabs/react.force.datacontainer) to generate parts of the UI using Salesforce metadata.
 
 This is an experimental project published under ForceDotComLabs, which means that:
+
 1. It's work in progress
-2. We need your feedback
-3. Code contributions are welcome
+1. We need your feedback
+1. Code contributions are welcome
 
 ![iOS Screenshot](/README_files/screen2.png?raw=true)  ![iOS Screenshot](/README_files/screen1.png?raw=true)
 
@@ -41,7 +42,7 @@ Watch the recording of the presentation delivered at the TrailheaDX conference:
     pod install
     ```
 
-    If the `pod` command is not found, install cocoapods first.
+    If the `pod` command is not found, install cocoapods first:
     ```
     sudo gem install cocoapods
     ```
@@ -80,7 +81,7 @@ Watch the recording of the presentation delivered at the TrailheaDX conference:
   npm start
   ```
 
-1. In Xcode select the **dreamhouse** project in the Project Navigator and select the **dreamhouse copy** target.
+1. In Xcode, select the **dreamhouse** project in the Project Navigator and select the **dreamhouse copy** target.
 
     ![xcode](README_files/xcode_target.jpg)
 
@@ -90,4 +91,4 @@ Watch the recording of the presentation delivered at the TrailheaDX conference:
 
 ## Step-By-Step Tutorial
 
-Follow [this step-by-step tutorial](/tutorial) to recreate the application from scratch:
+Follow [this step-by-step tutorial](/tutorial) to recreate the application from scratch.
